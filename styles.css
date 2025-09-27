@@ -1,7 +1,9 @@
 body{
     background:#E6BDE2;
+    font-family:"Arial",Times, serif;
 }
 h1{
-    color:forestgreen;
+    color:indigo;
     text-align:center;
+    font-family:"Arial",Times,serif;
 }
