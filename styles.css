@@ -30,13 +30,39 @@ border-radius: 25%;
   line-height: 1.28;
 }
 
-/* Header */
-.resume-header { text-align: center; margin-bottom: 6px; }
-.res-name { margin: 0; font-size: 24px; font-weight: 700; }
-.contact { margin: 4px 0 0 0; font-size: 13px; }
+/* === Centered Resume Header === */
+.resume-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-/* thin header divider */
-.header-hr { border: none; border-top: 1px solid #000; margin: 10px 0 16px 0; }
+.res-name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.contact {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Divider line under header */
+.header-hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 12px auto 20px auto;
+  width: 80%; /* slightly narrower for a cleaner centered look */
+}
 
 /* MAIN: each <section> becomes two columns: left for <h2>, right for content */
 .res-main { background: #fff; padding: 6px 8px 12px 8px; border-radius: 2px; }
