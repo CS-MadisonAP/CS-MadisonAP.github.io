@@ -1,77 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- this HTML content was created by ChatGPT -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Madison Putman — Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <div class="resume-container">
+<body class="site-root">
+
+  <div class="resume-wrap">
     <header class="resume-header">
-      <div class="resume-avatar">MP</div>
-      <div class="resume-title">
-        <h1>Madison Putman</h1>
-        <p>Bachelor of Science — Computer Science (Interested in Cybersecurity)</p>
-        <p class="meta">GPA: 3.688 • South Carolina Honors College</p>
+      <div class="rh-left">
+        <div class="avatar">MP</div>
+        <div class="title-block">
+          <h1 class="name">Madison Putman</h1>
+          <p class="tagline">Bachelor of Science in Computer Science — South Carolina Honors College</p>
+          <p class="meta">Interested in Cybersecurity • GPA: 3.688 / 4.0</p>
+        </div>
       </div>
-      <div class="resume-contact">
-        <p>📞 +1 (803) 995-3214</p>
-        <p>✉️ <a href="mailto:putmanm@email.sc.edu">putmanm@email.sc.edu</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/madison-putman" target="_blank">linkedin.com/in/madison-putman</a></p>
-        <a class="download-btn" href="Putman_Computer Science_Resume (12).pdf" target="_blank">Download PDF</a>
+
+      <div class="rh-right">
+        <div class="contact-line"><a href="tel:+18039953214">+1 (803) 995-3214</a></div>
+        <div class="contact-line"><a href="mailto:putmanm@email.sc.edu">putmanm@email.sc.edu</a></div>
+        <div class="contact-line"><a href="https://www.linkedin.com/in/madison-putman" target="_blank">linkedin.com/in/madison-putman</a></div>
+        <a class="download-btn" href="Putman_Computer Science_Resume (12).pdf" target="_blank" rel="noopener">Download PDF</a>
       </div>
     </header>
 
     <main class="resume-main">
-      <section class="resume-section">
-        <h2>Education</h2>
-        <p><strong>University of South Carolina — Columbia</strong> | Expected Graduation: May 2029</p>
-        <p>Honors College | GPA: 3.688 | Palmetto Fellows Scholarship, Dean’s Scholar</p>
-        <p><strong>White Knoll High School</strong> — Lexington, SC (May 2025)</p>
-      </section>
+      <section class="primary-col">
+        <!-- Education -->
+        <article class="card">
+          <h2>Education</h2>
+          <div class="divider"></div>
+          <h3>University of South Carolina — Columbia</h3>
+          <p><em>South Carolina Honors College • Expected Graduation: May 2029</em></p>
+          <p>Bachelor of Science in Computer Science — Interested in Cybersecurity</p>
+          <p><strong>Honors & Awards:</strong> Palmetto Fellows Scholarship, Dean’s Scholar, First Generation Engineering Scholarship, USC STEM Supplement Scholarship</p>
 
-      <section class="resume-section">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-          <li>Python</li>
-          <li>Java</li>
-          <li>Microsoft Office 365</li>
-          <li>Google Drive</li>
-          <li>Windows</li>
-          <li>Typing</li>
-        </ul>
-      </section>
+          <div class="divider"></div>
+          <h3>White Knoll High School — Lexington, SC</h3>
+          <p><em>Graduated May 2025</em></p>
+          <p><strong>Honors & Awards:</strong> Student Body President, Graduation Commencement Speaker, James F. Byrnes Leadership Award Recipient, Lexington County Rotary Scholarship Recipient, Columbia Urban League Leadership Spotlight</p>
+        </article>
 
-      <section class="resume-section">
-        <h2>Relevant Projects</h2>
-        <p><strong>AP Computer Science Food Truck Program</strong> (Feb 2022)</p>
-        <ul>
-          <li>Developed a Python program to generate food orders and calculate total cost.</li>
-        </ul>
-      </section>
+        <!-- Coursework -->
+        <article class="card">
+          <h2>Relevant Coursework</h2>
+          <div class="divider"></div>
+          <ul class="tight-list">
+            <li>AP Calculus AB/BC</li>
+            <li>AP Computer Science Principles</li>
+            <li>Computing in the Modern World</li>
+            <li>Vector Calculus Honors</li>
+            <li>Algorithmic Design I Honors</li>
+          </ul>
+        </article>
 
-      <section class="resume-section">
-        <h2>College Leadership</h2>
-        <p><strong>Student Government Freshman Council</strong> — Internal Affairs Coordinator (Sep 2025–Present)</p>
-        <ul>
-          <li>Led initiatives promoting leadership, academic success, and safety.</li>
-        </ul>
-      </section>
+        <!-- Skills -->
+        <article class="card">
+          <h2>Skills</h2>
+          <div class="divider"></div>
+          <ul class="tight-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>Microsoft Office 365</li>
+            <li>Google Drive</li>
+            <li>Windows XP</li>
+            <li>Typing</li>
+          </ul>
+        </article>
 
-      <section class="resume-section">
-        <h2>High School Leadership</h2>
-        <p><strong>Student Government Association</strong> — President (Aug 2021–Sep 2025)</p>
-        <ul>
-          <li>Represented student body at district and state levels.</li>
-          <li>Founded the “Order of the Timberwolf Gala.”</li>
-        </ul>
+        <!-- Projects -->
+        <article class="card">
+          <h2>Relevant Projects</h2>
+          <div class="divider"></div>
+          <h3>AP Computer Science Food Truck Program</h3>
+          <p><em>February 2022</em></p>
+          <ul class="tight-list">
+            <li>Developed a Python program to generate food orders from a preselected menu and calculate total costs.</li>
+          </ul>
+        </article>
+
+        <!-- College Leadership -->
+        <article class="card">
+          <h2>College Extracurricular & Leadership</h2>
+          <div class="divider"></div>
+          <h3>Student Government Freshman Council — Internal Affairs Coordinator</h3>
+          <p><em>September 2025 – Present</em></p>
+          <ul class="tight-list">
+            <li>Collaborate with first-year students to promote leadership, academic success, and community involvement.</li>
+            <li>Develop initiatives to promote health and safety on campus.</li>
+            <li>Maintain communication and strong team culture throughout the term.</li>
+          </ul>
+
+          <div class="divider"></div>
+          <h3>University of South Carolina Visitors Center — University Ambassador</h3>
+          <p><em>September 2025 – Present</em></p>
+          <ul class="tight-list">
+            <li>Serve as a resource for prospective students and families through tours and outreach.</li>
+            <li>Provide a positive first impression of the University of South Carolina.</li>
+          </ul>
+
+          <p><strong>Other Organizations:</strong> Black Honors Caucus, Baptist Collegiate Ministry (BCM), Minorities in Computing, National Society of Black Engineers (NSBE)</p>
+        </article>
+
+        <!-- High School Leadership -->
+        <article class="card">
+          <h2>High School Extracurricular & Leadership</h2>
+          <div class="divider"></div>
+          <h3>Student Government Association — Student Body President</h3>
+          <p><em>August 2021 – September 2025</em></p>
+          <ul class="tight-list">
+            <li>Represented students at district and state levels.</li>
+            <li>Led committees, fundraisers, and official events.</li>
+            <li>Founded the Order of the Timberwolf Gala (October 2024) to recognize community leaders.</li>
+          </ul>
+
+          <div class="divider"></div>
+          <h3>Special Olympics — Youth Activation Council (YAC), South Carolina</h3>
+          <p><em>June 2023 – May 2025</em></p>
+          <ul class="tight-list">
+            <li>Served as youth representative promoting student involvement in Special Olympics.</li>
+            <li>Participated in leadership conferences and inclusion training.</li>
+            <li>Spokesperson for South Carolina’s “End the R Word” Rally and the Area 7 Spring Games.</li>
+          </ul>
+        </article>
       </section>
     </main>
+
+    <footer class="resume-footer">
+      Content created with help from ChatGPT
+    </footer>
   </div>
+
 </body>
-<footer= class="site-footer">
-Content created with help from ChatGPT
-</footer>
 </html>
