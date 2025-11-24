@@ -13,23 +13,33 @@ p{
 }
 
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* adds even spacing between boxes */
+}
+
 .project {
-  flex: 1 1 30%;
-  aspect-ratio: 1 / 1; /* keeps each square shape */
-  margin: 10px;
-  padding: 10px;
+  flex: 1 1 30%;           /* about 3 per row; auto wraps on small screens */
+  aspect-ratio: 1 / 1;     /* keeps every box a perfect square */
   background: white;
   border-radius: 10px;
-  display: flex;
+  display: flex;            /* centers content */
   align-items: center;
   justify-content: center;
+  padding: 10px;
   box-sizing: border-box;
+  text-align: center;
 }
-.project img{
+
+.project img {
   max-width: 100%;
-  height: auto;
-  display: block;
+  max-height: 100%;
+  object-fit: cover;       /* fills the square without stretching */
+  border-radius: 10px;
 }
+
 
 /* ==== Resume: side-heading layout for every section ==== */
 .resume-page { background: #fff; } /* page scope - remove or change if you want site-wide */
