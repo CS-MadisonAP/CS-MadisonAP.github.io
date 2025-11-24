@@ -20,3 +20,98 @@ padding: 20px 10px;
 background: white; /* pick a color */
 border-radius: 25%;
 }
+/* Resume Page Styles */
+.resume-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.resume-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #1f6feb;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.resume-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #1f6feb;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-title h1 {
+  margin: 0;
+  color: #1f6feb;
+}
+.resume-title p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+.resume-contact {
+  text-align: right;
+  font-size: 14px;
+}
+.resume-contact a {
+  color: #1f6feb;
+  text-decoration: none;
+}
+.download-btn {
+  display: inline-block;
+  margin-top: 8px;
+  background: #1f6feb;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.resume-main h2 {
+  color: #1f6feb;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.skills-list li {
+  background: #eaf2ff;
+  color: #1f6feb;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+.site-footer {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
