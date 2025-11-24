@@ -14,12 +14,23 @@ p{
 
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: white; /* pick a color */
-border-radius: 25%;
+  flex: 1 1 30%;
+  aspect-ratio: 1 / 1; /* keeps each square shape */
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
+.project img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ==== Resume: side-heading layout for every section ==== */
 .resume-page { background: #fff; } /* page scope - remove or change if you want site-wide */
 .resume-container {
