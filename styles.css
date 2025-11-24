@@ -30,6 +30,22 @@ border-radius: 25%;
   line-height: 1.28;
 }
 
+/* Header */
+.resume-header { text-align: center; margin-bottom: 6px; }
+.res-name { margin: 0; font-size: 24px; font-weight: 700; }
+.contact { margin: 4px 0 0 0; font-size: 13px; }
+
+/* thin header divider */
+.header-hr { border: none; border-top: 1px solid #000; margin: 10px 0 16px 0; }
+.resume-page { background: #fff; } /* page scope - remove or change if you want site-wide */
+.resume-container {
+  max-width: 760px;
+  margin: 36px auto;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  line-height: 1.28;
+}
+
 /* === Centered Resume Header === */
 .resume-header {
   text-align: center;
