@@ -12,7 +12,7 @@ p{
     color:darkolivegreen;
 }
 
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+
 .projects {
   display: flex;
   flex-wrap: wrap;
