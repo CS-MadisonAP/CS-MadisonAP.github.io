@@ -15,7 +15,7 @@ html, body {
 /* Home page scope (keeps your previous styling) */
 body.home-page {
   background: #F2F2F5;
-  text-align: center;
+  text-align: right;
 }
 
 /* Headings & text (kept your colors / fonts) */
