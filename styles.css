@@ -169,7 +169,7 @@ body.home-page { text-align: center; }
 .project {
   flex: 0 1 18%;          /* about 3 per row on wide screens */
   aspect-ratio: 1 / 1;    /* forces perfect squares */
-  max-width: 30%;
+  max-width: 60%;
   border: 1px solid #ccc;
   border-radius: 8px;
   background: #fff;
