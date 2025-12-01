@@ -26,7 +26,7 @@ p{
 }
 
 .project {
-  flex: 1 1 22%;           /* about 3 per row; auto wraps on small screens */
+  flex: 0 1 22%;           /* about 3 per row; auto wraps on small screens */
   aspect-ratio: 1 / 1;     /* keeps every box a perfect square */
   background: white;
   border-radius: 10px;
