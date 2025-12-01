@@ -30,7 +30,13 @@ p {
   color: #2E2E3A;
   margin: 0 0 12px;
 }
+.about-image{
+   width: 180px;
+  height: 180px;
+  object-fit: cover; /* fills the square */
+  border-radius: 50%; /* makes it circular */
 
+}
 /* =========================
    Projects grid & tiles
    - Tiles will NOT stretch to fill a row (flex-grow: 0).
@@ -38,6 +44,7 @@ p {
    ========================= */
 
 /* container */
+
 .projects {
   display: flex;
   flex-wrap: wrap;
